@@ -1,0 +1,175 @@
+
+body {
+  margin:0;
+  padding: 0;
+
+}
+/*liens*/
+a:hover{
+  color: #bd8338;
+}
+a{
+  color:#388e3c;
+}
+/*bar latéral*/
+header{
+  position: relative;
+}
+
+.sidebar {
+  position: absolute;
+  width: 20%;
+  height: 205vh;
+  background: #1a1a1a;
+  font-size: 0.50em;
+  z-index: 1;
+}
+.info{
+  background-color:#bd8338;
+  height:25px;
+  top: 25px;
+}
+.infotext{
+  color: #fff;
+  font-size: 2.7em;
+  margin-top:-4px;
+}
+.inloisire{
+  color: #fff;
+  font-size: 2.9em;
+  margin-top: -4px;
+}
+.info3{
+  background-color:#bd8338;
+  position: relative;
+  height: 25px;
+  top: 30%;
+}
+.wrap{
+  font-family: '';
+  font-weight: bold;
+  font-size:1.9em;
+  color: #fff;
+}
+.color{
+font-family: 'Open Sans', sans-serif;
+  color: #bd8338;
+  font-size: 45px;
+ }
+.apropos{
+  margin: 5px;
+}
+h3{
+   color: black;
+   font-family: ;
+   font-weight: bold;
+}
+.iconeapropos{
+   color: #bd8338;
+}
+.iconlosire{
+  color: #bd8338;
+  margin: 20px;
+}
+/*fin bar latéral*/
+.sous-titre{
+   font-family: '';
+  font-size: 1.5em;
+  margin-top: -20px;
+  color: black;
+}
+.souligne{
+  border-bottom:2px solid #bd8338;
+}
+/*formation*/
+.iconformation{
+  color: #bd8338;
+  margin: 5px;
+}
+.formation{
+  font-family:;
+  border-bottom: 2px solid #bd8338;
+  font-size:30px;
+}
+.section2{
+margin-top: 10px;
+}
+/*colonn1 date*/
+div.parcours{
+	grid-template-areas:
+	            "comp1 comp2";
+  grid-template-columns: 1fr 1fr ;
+	display: grid;
+	grid-gap: 1px;
+	margin: 5px ;
+
+}
+/*colonn2 formation et experiance*/
+div.competence{
+	grid-template-areas:
+	            "compec2 ";
+
+	grid-template-columns: 1fr ;
+	display: grid;
+	grid-gap: 1px;
+	margin: 5px ;
+
+}
+.sous-titre2{
+font-weight: bold;
+}
+.texte{
+  font-size: 1.2em;
+}
+.typpar{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+/*media queries*/
+@media screen and (max-width: 750px){
+  .infotext{
+    color: #fff;
+    margin-top: -1px;
+margin-left: -9px;
+
+  }
+  .sidebar {
+    width: 35%;
+    height: 475vh;
+    background: #1a1a1a;
+    font-size: 5px;
+}
+  .info{
+    background-color:#bd8338;
+    height: 20px;
+  top: 16px;
+  font-size: 6px;
+  }
+  .info3{
+    background-color:#bd8338;
+    position: relative;
+    height: 1%;
+  top: 60%;
+  font-size: 7px;
+  }
+  .info3{
+    background-color:#bd8338;
+    position: relative;
+    height: 30px;
+    top: 20%;
+  }
+  .wrap{
+    font-family: '';
+    font-weight: bold;
+    font-size:7px;
+    color: #fff;
+  }
+  .inloisire {
+    margin: -13px;
+    color: #fff;
+    font-size: 2.7em;
+    margin-top: -1px;
+}
+
+
+}
